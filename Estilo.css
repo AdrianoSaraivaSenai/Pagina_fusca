@@ -1,0 +1,117 @@
+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+body{
+    margin: 5mm;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background-color: rgb(117, 115, 115);height: 30px;
+    justify-content: space-between;
+}
+
+.menu li{
+    margin-right: 20px;
+        
+}
+
+.menu a{
+    text-decoration: none;
+    color:rgb(13, 13, 13);
+    font-weight: bold;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.imagem{
+    width: 90%;
+    margin-right: 20px;
+    background-color: pink;
+}
+
+.imagem{
+    background-color: pink;
+}
+
+.texto{
+    flex-grow: 1;
+    background-color: rgb(239, 238, 237);
+}
+
+/* ************************************************ */
+/* ************************************************ */
+.fusca_preto{
+    background-color: aqua;
+    width: 30%;
+    margin-left:800px ;
+    justify-content: flex-end;
+}
+
+.texto2{
+    flex-grow: 0;
+    background-color: rgb(239, 238, 237);
+
+}
+
+.tabeladefotos{
+    background-color: black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.tabeladefotos table{
+    justify-content: space-between;
+    width: 50%;
+    border-spacing: 20px 0;  
+}
+
+.tabeladefotos table{
+    background-color: black;
+}
+
+.tabeladefotos td{
+    width: 25%;
+    text-align: end;
+    vertical-align: middle;
+    padding: 20px;
+    
+ 
+}
+
+.tabeladefotos img{
+    width: 100%;
+    height: auto;
+    margin-right:20px;
+    
+}
+
+.rodape {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background-color: rgb(117, 115, 115);height: 30px;
+    justify-content: space-between;
+}
+
+.rodape li{
+    margin-right: 20px;
+}
+
+.nome {
+    background-color: rgb(236, 236, 251);
+    float: right;
+    font-style: italic;
+}
+.icones{
+    
+    
+}
